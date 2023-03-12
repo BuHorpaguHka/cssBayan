@@ -107,14 +107,6 @@ img {
 	display: none;
 }
 
-/* White color and alpha while pressed */
-.faq-item:active > .faq-title {
-	color: #fff;
-}
-.faq-item:active {
-	opacity: 0.7;
-}
-
 /* While checked: block img, set colors and change the icon */
 .faq-input:checked ~ .addition > .faq-img {
 	transition: 1s;
@@ -126,4 +118,12 @@ img {
 }
 .faq-input:checked ~ .faq-title > .plus {
 	transform:rotate(45deg);
+}
+
+/* White color and alpha while pressed */
+.faq-item:active > .faq-title {
+	color: #fff;
+}
+.faq-item:active {
+	opacity: 0.7;
 }
